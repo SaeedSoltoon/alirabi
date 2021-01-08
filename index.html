@@ -1,0 +1,410 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- check here for icon cheatsheet https://linearicons.com/free#cdn -->
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="w-10/12 mx-auto flex justify-between text-sm text-gray-700 pt-8">
+    <div class="relative items-center">
+      <a id="app-list" class="inline-block p-3 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" class='h-8 w-8 sm:h-12 sm:w-12 stroke-1 stroke-current text-gray-600'
+          fill="none" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+        </svg>
+      </a>
+      <div id="app-list-container"
+        class="w-72 md:w-96 absolute hidden app-list-container">
+        <h3 class="font-bold text-lg">Apps</h3>
+        <div class="container mt-4">
+          <ul>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="" class="w-full inline-block group">
+                <img src="https://picsum.photos/50"
+                  class="app-item-img" alt="">
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900">test</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="relative items-center">
+      <a id="settings" class="inline-block p-3 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" class='h-8 w-8 sm:h-12 sm:w-12 stroke-1 stroke-current text-gray-600'
+          fill="none" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </a>
+      <div id="settings-menu"
+        class="w-72 md:w-96 z-10 hidden right-0 absolute clear-both bg-white shadow-md rounded-sm h-72 ml-4 p-4 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-400">
+        <h3 class="font-bold text-lg">Page Layout</h3>
+        <div class="container mt-4">
+          <ul>
+            <li class="mt-3">
+              <a href="" class="w-full block group hover:bg-purple-100 p-1 rounded flex items-center">
+                <svg class="lnr lnr-page-break text-gray-600 text-2xl">
+                  <use xlink:href="#lnr-page-break"></use>
+                </svg>
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900 align-middle">Inspirational</span>
+              </a>
+        
+              <a href="" class="w-full block group hover:bg-purple-100 p-1 rounded flex items-center">
+        
+                <svg class="lnr lnr-layers text-gray-600 text-2xl">
+                  <use xlink:href="#lnr-layers"></use>
+                </svg>
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900 align-middle">Layers</span>
+              </a>
+        
+              <a href="" class="w-full block group hover:bg-purple-100 p-1 rounded flex items-center">
+                <svg class="inline-block lnr text-gray-600 text-2xl">
+                  <use xlink:href="#lnr-cog"></use>
+                </svg>
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900 align-middle">Focused</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h3 class="font-bold text-lg">Advanced</h3>
+        <div class="container mt-4">
+          <ul>
+            <li class="mt-3">
+              <a href="" class="w-full block group hover:bg-purple-100 p-1 rounded flex items-center">
+                <svg class="lnr lnr-page-break text-gray-600 text-2xl">
+                  <use xlink:href="#lnr-page-break"></use>
+                </svg>
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900 align-middle">Custom</span>
+              </a>
+        
+              <a href="" class="w-full block group hover:bg-purple-100 p-1 rounded flex items-center">
+        
+                <svg class="lnr lnr-layers text-gray-600 text-2xl">
+                  <use xlink:href="#lnr-layers"></use>
+                </svg>
+                <span class="text-sm p-4 text-gray-600 group-hover:text-gray-900 align-middle">Informational</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- main -->
+  <div class="flex justify-center pt-20 px-2">
+    <div class="w-full lg:w-1/2">
+      <img class="w-1/2 ml-auto mr-auto mb-6"
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
+      <form action="">
+        <div class="flex border bg-white border-gray-200 rounded-full shadow text-xl h-16 overflow-hidden">
+          <!-- <form action=""> -->
+          <input type="text" class="w-full outline-none px-4 rounded-full" placeholder="Search the web" />
+          <div id="btn-search" class="bg-gray-200 inline-flex items-center px-6 cursor-pointer">
+            <svg class="h-8 w-8 stroke-current stroke-1 text-gray-500 hover:text-gray-900"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+          <!-- </form> -->
+        </div>
+      </form>
+
+      <div class="mt-4 text-center">
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div class="w-full relative inline-block text-center sm:text-left">
+          <div class="text-center w-48 sm:float-right mx-auto">
+            <button type="button"
+              class="inline-flex justify-center w-full px-4 py-2 font-medium text-gray-700 hover:text-gray-900 outline-none focus:outline-none focus:bg-transparent"
+              id="quick-links" aria-haspopup="true" aria-expanded="true">
+              <span class="font-light">Quick Links</span>
+              <!-- Heroicon name: chevron-down -->
+              <svg id="quick-links-chevron-down" class="-mr-1 ml-2 h-6 w-6 float-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+
+          <div id="quick-links-container" class="origin-top-left absolute left-0 sm:mt-12 clear-both w-full opacity-0 transition delay-300 ease-out">
+            <div class="flex justify-between py-1" role="menu" aria-orientation="vertical"
+              aria-labelledby="quick-links">
+              <a href="#" class="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                role="menuitem">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 sm:h-20 sm:w-20 bg-gray-200 rounded-full p-2 sm:p-6" viewBox="0 0 512 512">
+                  <path
+                    d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z" />
+                </svg>
+              </a>
+              <a href="#" class="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                role="menuitem">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 sm:h-20 sm:w-20 bg-gray-200 rounded-full p-2 sm:p-6" viewBox="0 0 512 512">
+                  <path
+                    d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+                  <path
+                    d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+                </svg>
+              </a>
+              <a href="#" class="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                role="menuitem"><svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 sm:h-20 sm:w-20 bg-gray-200 rounded-full p-2 sm:p-6" viewBox="0 0 512 512">
+                  <path
+                    d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" />
+                </svg></a>
+              <a href="#" class="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                role="menuitem"><svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 sm:h-20 sm:w-20 bg-gray-200 rounded-full p-2 sm:p-6" viewBox="0 0 512 512">
+                  <path
+                    d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
+                    fill-rule="evenodd" />
+                </svg></a>
+
+              <a href="#" class="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                role="menuitem"><svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 sm:h-20 sm:w-20 bg-gray-200 rounded-full p-2 sm:p-6" viewBox="0 0 512 512">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="32" d="M256 112v288M400 256H112" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <button
+            class="mr-3 bg-gray-200 border border-gray-300 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500"
+          >
+            Google Search
+          </button>
+          <button
+            class="bg-gray-200 border border-gray-300 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500"
+          >
+            I'm Feeling Lucky
+          </button> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="fixed bottom-0 w-full flex justify-center md:justify-between text-gray-600 text-xs py-6 px-24">
+    <a id="my-feeds" class="flex p-3 items-center cursor-pointer">
+      <span>My Feeds</span>
+      <span class="inline-block rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 sm:h-12 sm:w-12 stroke-1 stroke-current text-gray-600 bg-gray-200 rounded-full p-2" fill="none"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        </svg>
+      </span>
+    </a>
+  </div>
+
+  <!-- modal -->
+  <!-- This example requires Tailwind CSS v2.0+ -->
+  <div id="feeds-modal" class="fixed z-10 inset-0 overflow-y-auto hidden">
+    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+      <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div id="feeds-modal-backdrop" class="absolute inset-0 bg-gray-500 opacity-75"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+      <div
+        class="inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-3xl sm:w-full"
+        role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">            
+            <div class="mt-3 text-center sm:mt-0 sm:text-left w-full">
+              <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-headline">
+                Your Intrests
+              </h3>
+              <div id="intrests-menu-container" class="mt-8 container sm:w-full flex sm:justify-center overflow-auto p-3">
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white ml-0">Movie</a>
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white">Music</a>
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white">Sports</a>
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white">Life</a>
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white">Health</a>
+                <a href="#" class="intrest-menu-item focus:bg-gray-300 active:bg-gray-700 active:text-white">Food</a>
+              </div>
+              <div class="mt-6">
+                <div class="intrests-container grid-cols-2 sm:grid-cols-3">
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox" class="cursor-pointer"></label>
+                    </div>
+                    Action
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox1" />
+                      <label for="checkbox1" class="cursor-pointer"></label>
+                    </div>
+                    Horror
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox2" />
+                      <label for="checkbox2" class="cursor-pointer"></label>
+                    </div>
+                    Comedy
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox3" />
+                      <label for="checkbox3" class="cursor-pointer"></label>
+                    </div>
+                    Drama
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox4" />
+                      <label for="checkbox4" class="cursor-pointer"></label>
+                    </div>
+                    Romance
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox5" />
+                      <label for="checkbox5" class="cursor-pointer"></label>
+                    </div>
+                    Western
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox6" />
+                      <label for="checkbox6" class="cursor-pointer"></label>
+                    </div>
+                    Animation
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox7" />
+                      <label for="checkbox7" class="cursor-pointer"></label>
+                    </div>
+                    Adventure
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox8" />
+                      <label for="checkbox8" class="cursor-pointer"></label>
+                    </div>
+                    Nori
+                  </div>                  
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox9" />
+                      <label for="checkbox9" class="cursor-pointer"></label>
+                    </div>
+                    Oscar
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox10" />
+                      <label for="checkbox10" class="cursor-pointer"></label>
+                    </div>
+                    Adult
+                  </div>
+                  <div class="intrest-item">
+                    <div class="absolute top-1 right-1 round">
+                      <input type="checkbox" id="checkbox11" />
+                      <label for="checkbox11" class="cursor-pointer"></label>
+                    </div>
+                    Sport
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse justify-center">
+          <button type="button"
+            class="w-full px-12 inline-flex justify-center rounded-3xl border border-transparent shadow-sm px-4 py-2 bg-gray-700 text-base font-medium text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm">
+            Save
+          </button>
+          <button type="button"
+            class="mt-3 w-full px-12 inline-flex justify-center rounded-3xl border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script>
+    $(function () {
+
+      $('#app-list').click(()=>{
+        $('#app-list-container').toggleClass('hidden')
+      })
+
+      $('#settings').click(() => {
+        $('#settings-menu').toggleClass('hidden')
+      })
+
+      $('#quick-links').click(() => {
+        $('#quick-links-container').toggleClass('opacity-0')
+        $('#quick-links-chevron-down').toggleClass('transform rotate-180')
+      })
+
+      $('#my-feeds').click(() => {        
+        $('#feeds-modal').toggleClass('hidden');
+      })
+
+      $('#feeds-modal-backdrop').click(() => {
+        $('#feeds-modal').addClass('hidden')
+      })
+
+    })
+  </script>
+</body>
+
+</html>
